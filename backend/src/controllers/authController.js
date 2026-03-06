@@ -1,7 +1,4 @@
 //Credenciais do administrador
-const ADMIN_EMAIL    = 'de@praticabr.com';
-const ADMIN_PASSWORD = '12345678';
-
 const login = (req, res) => {
   try {
 
@@ -14,8 +11,10 @@ const login = (req, res) => {
       });
     }
 
-    if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
-
+    if (
+      email    === process.env.ADMIN_EMAIL &&
+      password === process.env.ADMIN_PASSWORD
+    ) {
       return res.status(200).json({
         success: true,
         message: 'Login realizado com sucesso',
