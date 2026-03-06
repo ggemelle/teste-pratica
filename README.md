@@ -327,9 +327,39 @@ techmanager/
 
 ---
 
+## 🔮 Melhorias Futuras
+
+Caso houvesse mais tempo para evolução do projeto, algumas melhorias poderiam ser implementadas para aumentar ainda mais a qualidade, confiabilidade e fidelidade da aplicação.
+
+### 🧪 Implementação de Testes Automatizados
+
+Uma evolução importante seria a implementação de testes automatizados para garantir maior robustez e segurança na aplicação.
+
+Isso incluiria:
+
+- **Testes unitários**, para validar o comportamento isolado das funções, controllers e validações do backend.
+- **Testes de interface (UI)**, garantindo que os fluxos principais da aplicação funcionem corretamente do ponto de vista do usuário.
+
+A adoção desses testes ajudaria a prevenir regressões, facilitar futuras manutenções e aumentar a confiabilidade do sistema.
+
+### 🎨 Maior Fidelidade ao Design do Frontend
+
+Outra melhoria possível seria refinar ainda mais a interface da aplicação para alcançar uma fidelidade ainda maior ao layout original desenvolvido no **Adobe XD**.
+
+Isso envolveria ajustes visuais e refinamentos como:
+
+- espaçamentos mais precisos entre elementos
+- ajustes finos de tipografia
+- melhorias na responsividade
+- maior consistência visual entre componentes
+
+Esses ajustes contribuiriam para uma experiência de usuário mais refinada e alinhada ao protótipo original.
+
+---
+
 ## 👤 Autor
 
-Feito por **[Gabriel de Souza Gemelle Leal]**
+Feito por **Gabriel de Souza Gemelle Leal**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-gemelle/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ggemelle)
