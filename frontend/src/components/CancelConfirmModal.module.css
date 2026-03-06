@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1100;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.modal {
+  width: 100%;
+  max-width: 400px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.header {
+  background: linear-gradient(90deg, #518EF8 0%, #6358B7 100%);
+  padding: 18px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerTitle {
+  color: #F8F9FA;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.body {
+  padding: 30px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.message {
+  color: #333333;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.26px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 30px 30px;
+}
+
+.confirmButton {
+  width: 68px;
+  height: 38px;
+  background-color: #396BC9;
+  color: #F8F9FA;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.confirmButton:hover {
+  opacity: 0.9;
+}
+
+.cancelButton {
+  width: 68px;
+  height: 38px;
+  background-color: #FFFFFF;
+  color: #C21618;
+  border: 1px solid #C21618;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.cancelButton:hover {
+  background-color: #fff5f5;
+}
